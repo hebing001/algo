@@ -1,0 +1,27 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "D:/myapp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++",
+                "D:/myapp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/x86_64-w64-mingw32",
+                "D:/myapp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/backward",
+                "D:/myapp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/include",
+                "D:/myapp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/include-fixed",
+                "D:/myapp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/include",
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "windowsSdkVersion": "10.0.22621.0",
+            "compilerPath": "D:/myapp/MinGW64/bin/g++.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "${default}"
+        }
+    ],
+    "version": 4
+}
