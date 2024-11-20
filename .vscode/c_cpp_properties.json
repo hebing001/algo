@@ -4,12 +4,12 @@
             "name": "Win32",
             "includePath": [
                 "${workspaceFolder}/**",
-                "D:/myapp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++",
-                "D:/myapp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/x86_64-w64-mingw32",
-                "D:/myapp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/backward",
-                "D:/myapp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/include",
-                "D:/myapp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/include-fixed",
-                "D:/myapp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/include",
+                "D:/myapp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/**",
+                "D:/myapp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/x86_64-w64-mingw32/**",
+                "D:/myapp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/backward/**",
+                "D:/myapp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/include/**",
+                "D:/myapp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/include-fixed/**",
+                "D:/myapp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/include/**",
             ],
             "defines": [
                 "_DEBUG",
