@@ -1,20 +1,18 @@
 #include <iostream>
 #include <vector>
-using namespace std;
+#include <algorithm>
 
 int main() {
-    vector<int> myVector = {1, 2, 3, 4, 5};
+    std::vector<int> nums = {1, 3, 5, 7, 9};
 
-    // 使用迭代器修改容器中的元素
-    for (vector<int>::iterator it = myVector.begin(); it != myVector.end(); ++it) {
-        *it = *it * 2;  // 将每个元素乘以2
-    }
+    int target = 4;
+    auto it = std::lower_bound(nums.begin(), nums.end(), target);
 
-    // 打印修改后的元素
-    for (vector<int>::iterator it = myVector.begin(); it != myVector.end(); ++it) {
-        cout << *it << " ";  // 输出 2 4 6 8 10
+    if (it != nums.end()) {
+        std::cout << "Found element >= " << target << ": " << *it << std::endl;
+    } else {
+        std::cout << "No element >= " << target << " found!" << std::endl;
     }
-    cout << endl;
 
     return 0;
 }
