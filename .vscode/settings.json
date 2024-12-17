@@ -53,7 +53,10 @@
         "text_encoding": "cpp",
         "typeinfo": "cpp",
         "map": "cpp",
-        "set": "cpp"
+        "set": "cpp",
+        "stack": "cpp",
+        "queue": "cpp",
+        "sstream": "cpp"
     },
     "C_Cpp.errorSquiggles": "enabled"
 }
